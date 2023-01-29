@@ -2,11 +2,9 @@ package com.example;
 
 public class User {
     private String password;
-
     public void initPassword(PasswordGenerator passwordGenerator){
         //as-is
             //RandomPasswordGenerator randomPasswordGenerator = new RandomPasswordGenerator();
-
         //to-be
         String password = passwordGenerator.generatePassword();
         /**
@@ -17,7 +15,6 @@ public class User {
         }
 
     }
-
     public String getPassword() {
         return password;
     }

@@ -37,11 +37,4 @@ class CalculatorTest {
                 arguments(4, "/", 2, 2)
         );
     }
-
-    @DisplayName("뺄셈을 정상적으로 수행한다")
-    @Test
-    void subtractionTest() {
-        int result = Calculator.calculate(1, "-", 2);
-        assertThat(result).isEqualTo(-1);
-    }
 }
