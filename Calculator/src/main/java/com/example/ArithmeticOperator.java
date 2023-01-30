@@ -8,7 +8,7 @@ public enum ArithmeticOperator {
         public int arithmeticCalculate(int operand1, int operand2) {
             return operand1 + operand2;
         }
-    }, SUBSTRACT("-"){
+    }, SUBSTRACTION("-"){
         @Override
         public int arithmeticCalculate(int operand1, int operand2) {
             return operand1 - operand2;
