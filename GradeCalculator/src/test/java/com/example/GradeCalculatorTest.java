@@ -8,7 +8,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class GradeCalculatorTest {
-
     @DisplayName("평균 학점을 계산한다")
     @Test
     void calculateGradetest() {

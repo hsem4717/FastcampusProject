@@ -3,12 +3,12 @@ package com.example;
 public class Course {
     private final String subject; //과목명
     private final int credit; //학점
-    private final String gradle; //성적
+    private final String grade; //성적
 
-    public Course(String subject, int credit, String gradle) {
+    public Course(String subject, int credit, String grade) {
         this.subject = subject;
         this.credit = credit;
-        this.gradle = gradle;
+        this.grade = grade;
     }
 
     public double multiplyCreditAndCourseGrade() {
@@ -21,7 +21,7 @@ public class Course {
 
     public double getGradeToNumber() {
         double grade = 0;
-        switch (this.gradle) {
+        switch (this.grade) {
             case "A+":
                 grade = 4.5;
                 break;
@@ -33,12 +33,6 @@ public class Course {
                 break;
             case "B":
                 grade = 3.0;
-                break;
-            case "C+":
-                grade = 2.5;
-                break;
-            case "C":
-                grade = 2.0;
                 break;
         }
         return grade;

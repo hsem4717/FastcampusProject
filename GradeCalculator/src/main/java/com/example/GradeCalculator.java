@@ -9,7 +9,6 @@ public class GradeCalculator {
         this.courses = new Courses(courses);
     }
 
-
     public double calculateGrade() {
         double totalMultipliedCreditAndCourseGrade = courses.multiplyAndCourseGrade();
         int totalCompletedCredit = courses.calculateTotalComplitedCredit();
