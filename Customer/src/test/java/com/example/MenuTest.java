@@ -3,12 +3,10 @@ package com.example;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.awt.*;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatCode;
-
 public class MenuTest {
 
     @DisplayName("메뉴판에서 메뉴이름에 해당하는 메뉴를 반환한다")

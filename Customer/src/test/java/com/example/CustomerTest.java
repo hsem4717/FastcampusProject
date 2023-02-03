@@ -6,10 +6,6 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatCode;
-
-/**
- * 음식점에서 음식을 주문하는 과정 구현
- */
 public class CustomerTest {
 
     @DisplayName("메뉴이름에 해당하는 메뉴를 주문한다")
