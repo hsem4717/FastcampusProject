@@ -47,7 +47,7 @@ public class ReflectionTest {
         Class<? extends User> clazz2 = user.getClass();
 
         Class<?> clazz3 = Class.forName("com.example.model.User");
-
+        //3가지 출력 방법
         logger.debug("clazz:[{}]", clazz);
         logger.debug("clazz:[{}]", clazz2);
         logger.debug("clazz:[{}]", clazz3);
