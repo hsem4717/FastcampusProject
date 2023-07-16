@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class UserDaoTest {
+
     @BeforeEach
     void setUp() {
         ResourceDatabasePopulator populator = new ResourceDatabasePopulator();
